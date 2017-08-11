@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="container-left">
+      <form class="form-color">
+        <div class="color">
+          <input type="color" id="color">
+          <input class="teal-text text-lighten-3" type="text" id="color-value" value="" placeholder="get your color or check yours">
+          <button class="btn" type="button" id="get_value">Get css</button>
+        </div>
+      </form>
+    </div>
+    <!-- container-left END -->
+
+    <div class="container-right">
+      <p id="get_css"></p>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <script src="main.js">
+
+  </script>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+</body>
+</html>

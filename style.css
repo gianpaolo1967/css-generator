@@ -1,0 +1,46 @@
+.color {
+  margin-top: 20px;
+  min-height: 200px;
+  width: 200px;
+  margin-left: 25%;
+}
+.input-text {
+
+}
+#color-value {
+  text-align: center;
+}
+#color {
+  width: 50%;
+  height: 100px;
+  margin-left: 25%;
+}
+#get_css {
+  margin-top: 20px;
+  width: 100%;
+  border-bottom: 1px solid #9ea09c;
+  min-height: 206px;
+  text-align: center;
+}
+#get_value {
+  width: 100%;
+}
+.container-left {
+  float: left;
+  width: 50%;
+  min-height: 500px;
+  border-right: 1px solid #9ea09c;
+}
+.form-color {
+  width: 100%;
+  border-bottom: 1px solid #9ea09c;
+  min-height: 206px;
+}
+.container-right {
+  float: left;
+  width: 50%;
+  min-height: 500px;
+}
+.clearfix {
+  clear: both;
+}
