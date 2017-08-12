@@ -25,11 +25,26 @@
 #get_value {
   width: 100%;
 }
+#pick-color {
+  margin-left: 25%;
+  width: 31%;
+}
 .container-left {
   float: left;
   width: 50%;
   min-height: 500px;
   border-right: 1px solid #9ea09c;
+}
+.form-border-radius {
+  margin-top: 20px;
+  width: 100%;
+  border-bottom: 1px solid #9ea09c;
+  min-height: 206px;
+}
+.br {
+  margin-top: 20px;
+  margin-left: 30%;
+  border: 2px solid black;
 }
 .form-color {
   width: 100%;
